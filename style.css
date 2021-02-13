@@ -1040,3 +1040,27 @@ h4 {
         text-align: center;
     }
 }
+
+.text-img1,.text-img3{
+	font-size:22px;
+	padding-left:18%;
+	padding-right:18%;
+}
+.text-img2{
+	font-size:22px;
+	padding-left:5%;
+	padding-right:5%;
+}
+.nom_auteur{
+	font-size:13px;
+	}
+@media (max-width:730px){
+	.text-img1,.text-img3,.text-img2{
+		margin-left:5%;margin-right:5%
+	}
+}
+@media (max-width:767px){
+	.carte_agence{
+		margin-left:2%
+	}
+}
